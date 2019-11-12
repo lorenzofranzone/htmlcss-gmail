@@ -16,6 +16,12 @@ body {
   margin: auto;
 }
 
+/*
+----------------------------------------------------
+Stile intestazione
+----------------------------------------------------
+*/
+
 header {
   color: #fff;
 }
@@ -67,6 +73,12 @@ input.search-submit {
   font-weight: 400;
 }
 
+/*
+----------------------------------------------------
+Stile contenuto principale
+----------------------------------------------------
+*/
+
 main {
   padding: 12px 0px;
   border-bottom: 1px solid #fff;
@@ -93,6 +105,12 @@ main {
 .email-active {
   background: #ddd;
 }
+
+/*
+----------------------------------------------------
+Stile chiusura 
+----------------------------------------------------
+*/
 
 footer {
   text-align: center;
