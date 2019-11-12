@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/wood-background-v1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  color: #fff;
+}
+
+.header-top {
+  height: 110px;
+  line-height: 110px;
+}
+
+.logo {
+  width: 100px;
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.header-bottom {
+  padding: 10px 0px 25px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.search-form{
+  margin-bottom: 24px;
+}
+
+input.search-text {
+  padding: 2px;
+}
+
+input.search-submit {
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+.header-bottom span {
+  width: 60px;
+  height: 60px;
+  background: #ffaa00;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.header-bottom h2 {
+  font-weight: 400;
+}
+
+main {
+  padding: 12px 0px;
+  border-bottom: 1px solid #fff;
+}
+
+.emails {
+  background: #aaa;
+}
+
+.email {
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+.email strong {
+  color: #000;
+}
+
+.email p {
+  display: inline;
+  color: #666;
+}
+
+.email-active {
+  background: #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+}
+
+footer span {
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 400;
+}
